@@ -1,0 +1,105 @@
+.background {
+    background-color: rgba(42, 42, 42, 0.38);
+    justify-content: flex-start;
+}
+
+.name-input {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+    -unity-font: url("project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&guid=e3265ab4bf004d28a9537516768c1c75&type=3#LiberationSans");
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.play-btn {
+    margin-top: 12px;
+    background-image: url("project://database/Assets/Brick%20Project%20Studio/Fast%20Food%20Restaurant%20Kit/Common/Textures/FFK_Wood_01_A.png?fileID=2800000&guid=9b833ce57f9eb304bbf2906d6d2923ec&type=3#FFK_Wood_01_A");
+    white-space: normal;
+    align-self: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: auto;
+    border-left-color: rgba(123, 83, 72, 0);
+    border-right-color: rgba(123, 83, 72, 0);
+    border-top-color: rgba(123, 83, 72, 0);
+    border-bottom-color: rgba(123, 83, 72, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.play-btn:hover {
+    margin-top: 12px;
+    background-image: url("project://database/Assets/Brick%20Project%20Studio/Fast%20Food%20Restaurant%20Kit/Common/Textures/FFK_Wood_01_A.png?fileID=2800000&guid=9b833ce57f9eb304bbf2906d6d2923ec&type=3#FFK_Wood_01_A");
+    white-space: normal;
+    align-self: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: auto;
+    border-left-color: rgba(183, 117, 51, 0);
+    border-right-color: rgba(183, 117, 51, 0);
+    border-top-color: rgba(183, 117, 51, 0);
+    border-bottom-color: rgba(183, 117, 51, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    transition-duration: 0s;
+    scale: 1.1 1.1;
+}
+
+.play-btn:active {
+    margin-top: 12px;
+    background-image: url("project://database/Assets/Brick%20Project%20Studio/Fast%20Food%20Restaurant%20Kit/Common/Textures/FFK_Wood_01_A.png?fileID=2800000&guid=9b833ce57f9eb304bbf2906d6d2923ec&type=3#FFK_Wood_01_A");
+    white-space: normal;
+    align-self: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: auto;
+    border-left-color: rgba(183, 117, 51, 0);
+    border-right-color: rgba(183, 117, 51, 0);
+    border-top-color: rgba(183, 117, 51, 0);
+    border-bottom-color: rgba(183, 117, 51, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    transition-duration: 0s;
+    scale: 0.9 0.9;
+}
+
+.header {
+    font-size: 24px;
+    -unity-font-definition: url("project://database/Assets/Fonts/CollectEmAll-Bold.ttf?fileID=12800000&guid=3a696efbba8b14a47824dae56013e3e2&type=3#CollectEmAll-Bold");
+    -unity-font-style: bold;
+    color: rgb(93, 54, 27);
+}
+
+.content {
+    -unity-text-align: upper-center;
+    text-shadow: -2.5px 0 0 rgba(0, 0, 0, 0);
+    max-width: 698px;
+    color: rgb(93, 54, 27);
+    white-space: normal;
+    -unity-font-style: bold;
+    font-size: 16px;
+}
